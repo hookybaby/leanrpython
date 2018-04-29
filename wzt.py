@@ -1,15 +1,20 @@
 import os
+try:
+    doc = open("a1.txt", "a+")
+    print(doc.name)
 
-doc = open("a.txt", "a+")
+    doc.write("welcome!\n")
+    print(doc.tell())
 
-print(doc.name)
+    doc.seek(os.SEEK_SET)
 
-doc.write("welcome!\n")
+    context = doc.read()
 
-print(doc.tell())
+except IOError as identifier:
+    print("IOError")
+else:
+    print(context)
+    doc.close()
 
-doc.seek(os.SEEK_SET)
 
-context = doc.read()
-print(context)
-doc.close()
+print(os.getcwd)
