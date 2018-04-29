@@ -1,2 +1,2 @@
-# leanrpython
+# learnpython
 python study
