@@ -13,7 +13,7 @@ while len(numbers) > 0:
         odd.append(number)
 print(even)
 print(odd)
-
+print(odd)
 # In[19]:
 
 for letter in 'Python':
