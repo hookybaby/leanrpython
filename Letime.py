@@ -19,3 +19,7 @@ print(time.mktime(time.strptime(a, "%a %b %d %H:%M:%S %Y")))
 cal = calendar.month(2016, 1)
 print("以下输出2016年1月份的日历:")
 print(cal)
+
+sum = lambda arg1, arg2: arg1 + arg2
+
+print(sum(20, 3))
