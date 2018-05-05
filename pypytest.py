@@ -2,7 +2,7 @@ import datetime
 
 time1 = datetime.datetime.now()
 print(time1)
-for i in range(1000):
+for i in range(100):
     for j in range(1000):
         for t in range(1000):
             pass
