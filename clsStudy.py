@@ -1,8 +1,8 @@
-#_*_ coding:utf-8 _*_
-
+# -*- coding: UTF-8 -*-
 
 class parent:
-    __privateName="Josh" # 私有变量
+    __privateName = "Josh"  # 私有变量
+
     def __init__(self):
         print("parent init method")
 

@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 def HelloWorld():
-    print("Hello World! 您好")
+    print("Hello World! ")
 
 
 if __name__ == "__main__":
