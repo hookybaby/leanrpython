@@ -103,3 +103,8 @@ ENV/
 #vscode
 .vscode
 .vscode/
+
+#idea
+.idea/
+idea
+vcs.xml
